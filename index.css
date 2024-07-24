@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* @media only screen and (max-width: 600px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+} */
+
+    
+
+
+body{
+    font-size: 12px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+*{
+    margin-left: 0.8px;
+    margin-right: 0.8px;
+    margin-top: 0.4px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    height: 46px;
+}
+
+h6{
+    margin-bottom: 8px;
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #b7d0ae;
+    height: auto;
+}
+
+.UserContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    column-gap: 4px;
+}
+.vendorList{
+    display: flex;
+    /* align-items: left; */
+    justify-content: left;
+}
+.vendorTable{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffecb0;
+    max-width: fit-content;
+    border-radius: 4px
+}
+
+/* table{
+    width: 50%;
+} */
+
+
+table, td{
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: #dde5b6;
+}
+
+table td{
+    padding: 2px;
+    font-size: 12px;
+};
+
+table, tbody, tr, td{
+    padding: 2px;
+    font-size: 12px;
+    margin: 0px;
+    
+}
+
+
+.warapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-primary{
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+select{
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+
+/* table{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+   
+} */
+
+/* table tr{
+    display: flex;
+    flex-wrap: wrap;
+} */
